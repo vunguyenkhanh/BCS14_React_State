@@ -1,0 +1,78 @@
+.glasses-app {
+  background-image: url('./glassesImage/background.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: #333;
+}
+.app-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.model-container {
+  width: 80%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.model-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.glasses-overlay {
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  opacity: 0.7;
+}
+.glasses-info-overlay {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 165, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+}
+.glasses-name {
+  font-weight: bold;
+  margin-bottom: 2px;
+  font-size: 1rem;
+}
+.glasses-price {
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+.glasses-desc {
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+.glasses-selection {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  padding: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.glasses-option {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.glasses-option:hover {
+  transform: scale(1.05);
+}
+.glasses-option.selected {
+  background-color: rgba(0, 123, 255, 0.1);
+  border: 2px solid #007bff;
+}
+.glasses-option img {
+  width: 100px;
+  height: auto;
+}
